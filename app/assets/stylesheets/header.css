@@ -14,8 +14,9 @@ display: flex;
   margin: auto;
 }
 
-.work, .travel, .coffee, .life {
+.work, .travel, .food, .life {
   color: white;
+  font-size: 20px;
   width: 10vw;
   margin-left: 7px;
 }
