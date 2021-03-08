@@ -24,7 +24,7 @@ display: flex;
 .work-lists {
   height: 8vh;
   display: grid;
-  
+  align-content: center;
 }
 
 .show-work-lists {
