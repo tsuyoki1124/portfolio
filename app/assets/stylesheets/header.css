@@ -36,6 +36,7 @@ display: flex;
 
 li {
   border: 1px solid black;
+  height: 4vh;
   padding: 5px;
   background-color: rgb(118, 139, 139);;
 }
