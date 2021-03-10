@@ -1,0 +1,14 @@
+.fixed-background {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.background-1 {
+  background-image: url("untitled-15832.jpg");
+}
+
+.background-2 {
+  background-image: url("untitled-1863.jpg");
+}
