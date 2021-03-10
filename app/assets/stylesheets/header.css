@@ -1,0 +1,58 @@
+.header {
+width: 100%;
+height: 10vh;
+align-items: center;
+display: flex;
+}
+
+.header-box {
+  background-color: rgb(118, 139, 139);
+  display: flex;
+  height: 8vh;
+  width: 98%;
+  align-items: center;
+  margin: auto;
+}
+
+.work, .travel, .food, .life {
+  color: white;
+  font-size: 20px;
+  width: 10vw;
+  margin-left: 7px;
+}
+
+.work-lists {
+  height: 8vh;
+  display: grid;
+  align-content: center;
+}
+
+.show-work-lists {
+  position: fixed;
+  top: 50px;
+  color: white;
+  list-style: none;
+}
+
+.show-travel-lists {
+  position: fixed;
+  top: 50px;
+  color: white;
+  list-style: none;
+}
+
+li {
+  border: 1px solid black;
+  height: 4vh;
+  padding: 5px;
+  background-color: rgb(118, 139, 139);;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+
+
