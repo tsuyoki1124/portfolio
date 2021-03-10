@@ -34,6 +34,13 @@ display: flex;
   list-style: none;
 }
 
+.show-travel-lists {
+  position: fixed;
+  top: 50px;
+  color: white;
+  list-style: none;
+}
+
 li {
   border: 1px solid black;
   height: 4vh;

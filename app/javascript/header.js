@@ -1,14 +1,25 @@
 window.addEventListener('load', function(){
-  const pullDownButton = document.getElementById("worklists")
-  const pullDownParents = document.getElementById("pull-down")
+  const pullDownWork = document.getElementById("worklists")
+  const pullDownTravel = document.getElementById("travellists")
+  const pullDownParentsWork = document.getElementById("pull-down-work")
+  const pullDownParentsTravel = document.getElementById("pull-down-travel")
 
-  pullDownButton.addEventListener('click', function() {
-    
+
+  pullDownWork.addEventListener('click', function() {
     // プルダウンメニューの表示と非表示の設定
-    if (pullDownParents.getAttribute("style") == "display:block;") {
-      pullDownParents.removeAttribute("style", "display:block;")
+    if (pullDownParentsWork.getAttribute("style") == "display:block;") {
+      pullDownParentsWork.removeAttribute("style", "display:block;")
     } else {
-      pullDownParents.setAttribute("style", "display:block;")
+      pullDownParentsWork.setAttribute("style", "display:block;")
+    }
+  })
+
+  pullDownTravel.addEventListener('click', function() {
+    // プルダウンメニューの表示と非表示の設定
+    if (pullDownParentsTravel.getAttribute("style") == "display:block;") {
+      pullDownParentsTravel.removeAttribute("style", "display:block;")
+    } else {
+      pullDownParentsTravel.setAttribute("style", "display:block;")
     }
   })
   
