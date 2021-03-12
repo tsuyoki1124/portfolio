@@ -1,0 +1,17 @@
+/* header */
+
+.header-index {
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  display: flex;
+}
+
+.australia, .thailand, .indonesia, .malaysia, .philippines, .vietnam, .cambodia, .laos {
+  color: white;
+  font-size: 20px;
+  width: 10vw;
+  margin-left: 7px;
+}
+
+
