@@ -1,3 +1,24 @@
+.profile-box {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.profile-text {
+  width: 35vw;
+  height: 30vh;
+}
+
+.profile-photo {
+  width: 35vw;
+  height: 30vh;
+}
+
+
+
+
+
+
 .fixed-background {
   min-height: 50vh;
   background-attachment: fixed;
