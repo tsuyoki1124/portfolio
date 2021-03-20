@@ -2,16 +2,16 @@
   display: flex;
   text-align: center;
   justify-content: center;
+  height: 70vh;
+
 }
 
 .profile-text {
   width: 35vw;
-  height: 30vh;
 }
 
 .profile-photo {
   width: 35vw;
-  height: 30vh;
 }
 
 
