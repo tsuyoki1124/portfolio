@@ -21,8 +21,17 @@
   background-position: center;
 }
 
+.travel-wrapper {
+  text-align: center;
+}
+
 .travel-text-title {
   height: 45vh;
   margin: 0 auto;
+}
+
+.insta {
+  height: 50vh;
+  justify-content: center;
 }
 
