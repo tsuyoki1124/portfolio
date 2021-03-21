@@ -1,0 +1,36 @@
+/* header */
+
+.header-index {
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  display: flex;
+}
+
+.australia, .thailand, .indonesia, .malaysia, .philippines, .vietnam, .cambodia, .laos {
+  color: white;
+  font-size: 20px;
+  width: 10vw;
+  margin-left: 7px;
+}
+
+.travel-text-box {
+  min-height: 50vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.travel-wrapper {
+  text-align: center;
+}
+
+.travel-text-title {
+  height: 45vh;
+  margin: 0 auto;
+}
+
+.insta {
+  height: 50vh;
+}
+
