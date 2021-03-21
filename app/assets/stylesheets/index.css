@@ -14,11 +14,6 @@
   width: 35vw;
 }
 
-
-
-
-
-
 .fixed-background {
   min-height: 50vh;
   background-attachment: fixed;
@@ -27,7 +22,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .fixed-background h1 {
@@ -42,4 +36,8 @@
 
 .background-2 {
   background-image: url("untitled-1863.jpg");
+}
+
+.scroll-background {
+  text-align: center;
 }
